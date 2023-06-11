@@ -40,7 +40,7 @@ class AddressBook {
         } else {
             System.out.println("Lista de contactos:");
             for (Map.Entry<String, String> entry : contacts.entrySet()) {
-                System.out.println("Número telefonico: " + entry.getKey() + "Nombre: " + entry.getValue());
+                System.out.println("Número telefonico: " + entry.getKey() + " Nombre: " + entry.getValue());
             }
         }
     }
